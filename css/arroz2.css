@@ -43,7 +43,6 @@
 .formulario1{
 
     display:grid;
-    grid-column: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     max-width: 100%;
     border-radius: 12px;
@@ -78,7 +77,6 @@ transform: translatey(-10px);
 .pedra{
     display: grid;
     justify-content:center;
-    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     background: linear-gradient(#f8890ae5,#924918, #724e1f);
     border-radius: 30px;
@@ -151,8 +149,7 @@ position: relative;
 
 
 @media (max-width: 600px){ 
-    .pedra { display: grid;
-    grid-template-columns: 1fr;
+    .pedra { display: grid;;
     grid-template-rows: auto;
     max-width: 100%;}
 }
@@ -264,6 +261,7 @@ position: relative;
     z-index: 1000;
     padding:10px;
 }
+
 
 
 
