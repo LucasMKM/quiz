@@ -95,7 +95,8 @@ transform: translateY(30px);
 }
 
 .pedra > * {
-    min-width: 0; /* permite que os itens encolham */
+    min-width: 0;
+    padding:10px;
 } 
 
 
@@ -261,6 +262,7 @@ position: relative;
     z-index: 1000;
     padding:10px;
 }
+
 
 
 
